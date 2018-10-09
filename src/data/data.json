@@ -1,0 +1,33 @@
+[{
+    "name": "MySQL",
+    "date": 60,
+    "cpu": "2核",
+    "GB": "4GB",
+    "memory": "40G",
+    "dataMe": "100G",
+    "num": 1020.00
+}, {
+    "name": "PostgreSQL",
+    "date": 60,
+    "cpu": "2核",
+    "GB": "4GB",
+    "memory": "40G",
+    "dataMe": "100G",
+    "num": 1010.00
+}, {
+    "name": "SQL Server",
+    "date": 30,
+    "cpu": "4核",
+    "GB": "8GB",
+    "memory": "40G",
+    "dataMe": "100G",
+    "num": 1030.00
+}, {
+    "name": "MongoD8",
+    "date": 30,
+    "cpu": "2核",
+    "GB": "8GB",
+    "memory": "40G",
+    "dataMe": "100G",
+    "num": 1040.00
+}]

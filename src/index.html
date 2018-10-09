@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="css/flexible.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <ul class="main">
+            <dl>
+                <dt>
+
+                </dt>
+                <dd>
+                    <h2>云数据库</h2>
+                    <p>安全可靠的数据库服务，人气精选，轻松管理</p>
+                </dd>
+            </dl>
+            <ul class="list">
+                <li>
+                    <div class="tit">
+                        <div class="left">
+                            <input type="radio">
+                            <h3>MySQL</h3>
+                        </div>
+                        <h3>60天</h3>
+                    </div>
+                    <ul class="box">
+                        <li>2</li>
+                        <li>4</li>
+                        <li>40</li>
+                        <li>100</li>
+                    </ul>
+                </li>
+            </ul>
+    </div>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('get', './data/data.json', true);
+        xhr.send();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200) {
+                    console.log(xhr.responseText);
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
